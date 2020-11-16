@@ -15,8 +15,8 @@ $ python app.py
 
 - 예측한 랜드마크의 주소를 보여주거나, 카카오 지도 검색 결과로 이동
 
-- Heroku를 사용하여 클라우드 서버 배포
-https://landmarkproject.herokuapp.com/
+- Heroku를 사용하여 클라우드 서버 배포 
+  - https://landmarkproject.herokuapp.com/
 
 ### 사용 모델
 
