@@ -1,11 +1,7 @@
 import numpy as np
 import tensorflow as tf
-# import math
 import pandas as pd
-# from sklearn import model_selection
-# import glob
 import os
-# import datetime
 import logging
 import json
 
@@ -46,7 +42,6 @@ def pred_image(image_path):
     # input image
     image = read_image(image_path)
     image = preprocess_input(image, config['input_size'][:2])
-    # image = np.reshape(image, (1, 135,240, 3))
     image = np.reshape(image, (1,160, 160, 3))
     
     print('start pred')
